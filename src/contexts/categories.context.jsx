@@ -34,8 +34,6 @@ export const CategoriesProvider = ({ children }) => {
 
       setCategoriesMap(collectionsMap);
     }
-
-    console.log(data);
   }, [data]);
 
   const value = { categoriesMap, loading };
